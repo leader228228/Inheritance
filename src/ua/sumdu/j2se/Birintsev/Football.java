@@ -33,22 +33,32 @@ public class Football extends Hobby {
     }
 
     public static String getName() {
+
         return name;
+
     }
 
     public String getTeam() {
+
         return team;
+
     }
 
     public void setTeam(String team) {
+
         this.team = team;
+
     }
 
     public short getTeamNumber() {
+
         return teamNumber;
+
     }
 
     public void setTeamNumber(short teamNumber) {
+
         this.teamNumber = teamNumber;
+
     }
 }

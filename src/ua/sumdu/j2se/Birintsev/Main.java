@@ -6,9 +6,9 @@ public class Main {
 
         Hobby fishing = new Fishing();
 
-        fishing.isRegular = true;
+        fishing.setRegular(true);
 
-        fishing.hasAchievements = false;
+        fishing.setHasAchievements(false);
 
         ((Fishing) fishing).setPersonalRecord(12.5f);
 
@@ -16,9 +16,9 @@ public class Main {
 
         Hobby football = new Football();
 
-        football.isRegular = true;
+        football.setRegular(true);
 
-        football.hasAchievements = true;
+        football.setHasAchievements(true);
 
         ((Football) football).setTeam("Dynamo");
 

@@ -4,8 +4,15 @@ public abstract class Hobby {
 
     public abstract void tellAboutHobby();
 
-    boolean isRegular;
+    private boolean isRegular;
 
-    boolean hasAchievements;
+    private boolean hasAchievements;
 
+    public void setRegular(boolean regular) {
+        isRegular = regular;
+    }
+
+    public void setHasAchievements(boolean hasAchievements) {
+        this.hasAchievements = hasAchievements;
+    }
 }
